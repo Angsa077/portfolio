@@ -32,8 +32,7 @@ const Work = () => {
                       exit='hidden' 
                       className='mb-4 max-w-[480px] mx-auto lg:mx-0'
                     >
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                      Doloribus soluta aliquid ad cupiditate accusamus?
+                     Welcome to my portfolio showcasing a collection of projects that highlight my journey as a web developer and IT enthusiast.
                   </motion.p>
               </div>               
                {/* slider */}

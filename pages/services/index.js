@@ -32,8 +32,11 @@ const Services = () => {
                       exit='hidden' 
                       className='mb-4 max-w-[480px] mx-auto lg:mx-0'
                     >
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                      Doloribus soluta aliquid ad cupiditate accusamus?
+                      As a web developer and IT consultant, 
+                      I offer a range of services to cater to your digital needs. 
+                      With a strong foundation in coding, networking, and design, I
+                       am your one-stop solution for creating a powerful online 
+                       presence and optimizing your technology infrastructure.
                   </motion.p>
               </div>               
                {/* slider */}

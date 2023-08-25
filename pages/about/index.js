@@ -2,19 +2,16 @@ import React, { useState } from 'react';
 
 //icons
 import {
-  FaHtml5,
   FaCss3,
+  FaHtml5,
+  FaLaravel,
   FaJs,
   FaReact,
-  FaWordpress,
-  FaFigma,
 } from 'react-icons/fa';
 
 import {
   SiNextdotjs,
-  SiFramer,
-  SiAdobexd,
-  SiAdobephotoshop,
+  SiTailwindcss,
 } from 'react-icons/si';
 
 
@@ -28,64 +25,64 @@ export const aboutData = [
         icons: [
           <FaHtml5 />,
           <FaCss3 />,
+          <SiTailwindcss />,
+          <FaLaravel />,
           <FaJs />,
           <FaReact />,
           <SiNextdotjs />,
-          <SiFramer />,
-          <FaWordpress />,
         ],
       },
-      {
-        title: 'UI/UX Design',
-        icons: [<FaFigma />, <SiAdobexd />, <SiAdobephotoshop />],
-      },
+      // {
+      //   title: 'UI/UX Design',
+      //   icons: [<FaFigma />, <SiAdobexd />, <SiAdobephotoshop />],
+      // },
     ],
   },
   {
     title: 'awards',
     info: [
       {
-        title: 'Webby Awards - Honoree',
-        stage: '2011 - 2012',
+        title: '-',
+        stage: '-',
       },
-      {
-        title: 'Adobe Design Achievement Awards - Finalist',
-        stage: '2009 - 2010',
-      },
+      // {
+      //   title: 'Adobe Design Achievement Awards - Finalist',
+      //   stage: '2009 - 2010',
+      // },
     ],
   },
   {
     title: 'experience',
     info: [
       {
-        title: 'UX/UI Designer - XYZ Company',
-        stage: '2012 - 2023',
+        title: 'Customer Service at Bank Central Asia',
+        stage: '2019 s/d 2022',
       },
-      {
-        title: 'Web Developer - ABC Agency',
-        stage: '2010 - 2012',
-      },
-      {
-        title: 'Intern - DEF Corporation',
-        stage: '2008 - 2010',
-      },
+      // {
+      //   title: 'Web Developer - ABC Agency',
+      //   stage: '2010 - 2012',
+      // },
+      // {
+      //   title: 'Intern - DEF Corporation',
+      //   stage: '2008 - 2010',
+      // },
     ],
   },
   {
     title: 'credentials',
     info: [
       {
-        title: 'Web Development - ABC University, LA, CA',
-        stage: '2011',
+        title: 'Web Developer Junior - BNSP',
+        stage: '2023',
       },
-      {
-        title: 'Computer Science Diploma - AV Technical Institute',
-        stage: '2009',
-      },
-      {
-        title: 'Certified Graphic Designer - ABC Institute, Los Angeles, CA',
-        stage: '2006',
-      },
+      // {
+      //   title: 'Computer Science Diploma - AV Technical Institute',
+      //   stage: '2009',
+      // },
+      // {
+      //   title: 'Certified Graphic Designer - ABC Institute, Los Angeles, CA',
+      //   stage: '2006',
+      // },
     ],
   },
 ];

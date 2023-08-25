@@ -2,24 +2,24 @@
 export const testimonialSlider = [
   {
     image: '/t-avt-1.png',
-    name: 'Anne Smith',
+    name: 'Alvin Malik',
     position: 'Customer',
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+      'Saya sangat senang bekerja dengan ka Angga untuk mengembangkan situs web bisnis saya. Kemampuan teknisnya luar biasa dan dia benar-benar memahami visi yang saya miliki. Proses kerjanya sangat terstruktur, dia selalu mengkomunikasikan perkembangan proyek secara efektif. Saya sangat puas dengan hasil akhirnya dan tidak ragu merekomendasikan kepada siapa pun yang membutuhkan solusi web berkualitas tinggi.',
   },
   {
     image: '/t-avt-2.png',
-    name: 'Jane Doe',
+    name: 'Muhammad Hafidh Siddiq',
     position: 'Customer',
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+      'Sangat puas dengan hasil kerja dari web developer ini! Desain website yang dibuat sangat menarik dan responsif. Tidak hanya itu, tetapi juga proses kerjanya sangat profesional.',
   },
   {
     image: '/t-avt-3.png',
-    name: 'Jhon Doe',
+    name: 'Ade Rohman',
     position: 'Customer',
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+      'Website baru yang dibuat oleh web developer ini benar-benar mengubah cara kami berinteraksi dengan pelanggan. Tampilan yang menawan dan user-friendly membuat pengunjung betah berlama-lama.',
   },
 ];
 

@@ -21,30 +21,30 @@ import { FreeMode, Pagination } from 'swiper';
 
 // service data
 export const serviceData = [
-  {
-    icon: <RxCrop />,
-    title: 'Branding',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-  },
+  // {
+  //   icon: <RxCrop />,
+  //   title: 'Branding',
+  //   description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  // },
   {
     icon: <RxPencil2 />,
-    title: 'Design',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    title: 'UI/UX Design',
+    description: 'Crafting interfaces that are not only visually stunning but also intuitive and easy to navigate.',
   },
   {
     icon: <RxDesktop />,
-    title: 'Development',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    title: 'Website Development',
+    description: 'Personal blog or a corporate site, I specialize in crafting responsive and visually appealing websites tailored to your needs.',
   },
   {
     icon: <RxReader />,
-    title: 'Copywriting',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    title: 'IT Consultation',
+    description: 'I want to help you make informed decisions about your IT strategies, software choices, and digital transformation initiatives.',
   },
   {
     icon: <RxRocket />,
-    title: 'SEO',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    title: 'Network Setup',
+    description: 'I offer network setup services that ensure your systems are optimized for performance, security, and reliability.',
   },
 ];
 

@@ -28,8 +28,8 @@ const Home = () => {
                 exit='hidden'
                 className='h1'
               >
-              Transforming Ideas <br /> Into{' '}
-              <span className='text-accent'>Digital Reality</span>
+              Hello, my name is Angga<br /> I'am a{' '}
+              <span className='text-accent'>Web Developer</span>
             </motion.h1>
              {/* subtitle */}
              <motion.p 
@@ -38,10 +38,8 @@ const Home = () => {
                   animate='show'
                   exit='hidden'
                   className='max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi 
-                amet laudantium voluptate illum laborum? Voluptatum cum nam 
-                libero, laudantium voluptate illum laborum? Voluptatum cum nam 
-                libero.
+                    Bringing ideas to life through code is my forte; I specialize in 
+                    creating responsive and user-friendly websites.
             </motion.p>
             {/* btn */}
             <div className='flex justify-center xl:hidden relative'>

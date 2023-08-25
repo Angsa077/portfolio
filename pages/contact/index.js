@@ -10,7 +10,18 @@ import { motion } from 'framer-motion';
 //variants
 import { fadeIn } from '../../variants';
 
-const Contact = () => {
+import React from 'react';
+import { useForm, ValidationError } from '@formspree/react';
+function Contact() {
+const [state, handleSubmit] = useForm("mzblrypo");
+if (state.succeeded) {
+    return (
+    <div className='h-full bg-primary/30 py-32 text-center'>
+      <div className='container mx-auto h-full flex flex-col justify-center'>
+        <p className='h2 mb-8 xl:mb-0'>Thanks for contact me!</p>
+      </div>
+    </div>);
+}
   return (
     <div className='container mx-auto py-32 text-center xl:text-left flex
     items-center justify-center h-full'>
@@ -28,6 +39,7 @@ const Contact = () => {
         </motion.h2>
         {/*form*/}
         <motion.form 
+            onSubmit={handleSubmit}
             variants={fadeIn('up', 0.4)}
             initial='hidden'
             animate='show' 
@@ -36,11 +48,11 @@ const Contact = () => {
           >
           {/*input group*/}
           <div className='flex gap-x-6 w-full'>
-              <input type='text' placeholder='name' className='input' />
-              <input type='text' placeholder='email' className='input' />
+              <input type='text' placeholder='name' name='name' id='name' className='input' />
+              <input type='text' placeholder='phone' name='phone' id='phone' className='input' />
           </div>
-          <input type='text' placeholder='subject' className='input' />
-          <textarea placeholder='message' className='textarea'></textarea>
+          <input type='email' placeholder='email' name='email' id='email' className='input' />
+          <textarea placeholder='message' name='message' id='message' className='textarea'></textarea>
           <button className='btn rounded-full border border-white/50 max-w-[170px]
           px-8 transition-all duration-300 flex items-center justify-center
           overflow-hidden hover:border-accent group'>
