@@ -13,7 +13,7 @@ import { fadeIn } from '../../variants';
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 function Contact() {
-const [state, handleSubmit] = useForm("mzblrypo");
+const [state, handleSubmit] = useForm('mzblrypo');
 if (state.succeeded) {
     return (
     <div className='h-full bg-primary/30 py-32 text-center'>
@@ -35,7 +35,7 @@ if (state.succeeded) {
             exit='hidden'
             className='h2 text-center mb-12'
           >
-            Let's <span className='text-accent'>connect.</span>
+            Lets <span className='text-accent'>connect.</span>
         </motion.h2>
         {/*form*/}
         <motion.form 
@@ -58,7 +58,7 @@ if (state.succeeded) {
           overflow-hidden hover:border-accent group'>
             <span className='group-hover:-translate-y-[120%] group-hover:opacity-0
             transition-all duration-500'>
-              Let's talk
+              Lets talk
             </span>
             <BsArrowRight className='-translate-y-[120%] opacity-0 group-hover:flex
             group-hover:-translate-y-0 group-hover:opacity-100 transition-all

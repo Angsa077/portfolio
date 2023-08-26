@@ -22,14 +22,15 @@ export const aboutData = [
     info: [
       {
         title: 'Web Development',
+        title: 'Web Development',
         icons: [
-          <FaHtml5 />,
-          <FaCss3 />,
-          <SiTailwindcss />,
-          <FaLaravel />,
-          <FaJs />,
-          <FaReact />,
-          <SiNextdotjs />,
+          <FaHtml5 key="html" />,
+          <FaCss3 key="css" />,
+          <SiTailwindcss key="tailwind" />,
+          <FaLaravel key="laravel" />,
+          <FaJs key="javascript" />,
+          <FaReact key="react" />,
+          <SiNextdotjs key="nextjs" />,
         ],
       },
       // {
@@ -131,7 +132,7 @@ const About = () => {
                 exit='hidden'
                 className='max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0'>
                   1 years ago, I began freelancing as a web developer. 
-                  Since then, i've done work for a few company. 
+                  Since then, i have done work for a few company. 
             </motion.p>
           </div>
           {/* info */}
@@ -172,7 +173,7 @@ const About = () => {
                           <div className='flex gap-x-4'>
                             {/* icons */}
                             {item.icons?.map((icon, itemIndex) => {
-                              return <div className='text-2xl text-white'>{icon}</div>
+                              return <div className='text-2xl text-white' key={itemIndex}>{icon}</div>
                             })}
                           </div>
                       </div>
