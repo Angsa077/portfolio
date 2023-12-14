@@ -7,7 +7,7 @@ import {
   RiInstagramLine, 
   RiTiktokLine, 
   RiFacebookLine,  
-  RiYoutubeLine
+  RiLinkedinLine
 } from 'react-icons/ri';
 
 const Socials = () => {
@@ -15,6 +15,9 @@ const Socials = () => {
     <div className='flex items-center gap-x-5 text-lg'>
         <Link href={'https://github.com/Angsa077'} className='hover:text-accent transition-all duration-300'>
             <RiGithubLine />
+        </Link>
+        <Link href={'https://www.linkedin.com/in/angsa77/'} className='hover:text-accent transition-all duration-300'>
+            <RiLinkedinLine />
         </Link>
         <Link href={'https://www.instagram.com/angsa_77/'} className='hover:text-accent transition-all duration-300'>
             <RiInstagramLine />
@@ -24,9 +27,6 @@ const Socials = () => {
         </Link>
         <Link href={'https://www.facebook.com/Angsa077'} className='hover:text-accent transition-all duration-300'>
             <RiFacebookLine />
-        </Link>
-        <Link href={'https://www.youtube.com/@angsa_77'} className='hover:text-accent transition-all duration-300'>
-            <RiYoutubeLine />
         </Link>
     </div>
   );

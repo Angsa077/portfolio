@@ -38,7 +38,7 @@ const Home = () => {
                   animate='show'
                   exit='hidden'
                   className='max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16'>
-                    Bringing ideas to life through code is my forte; I specialize in 
+                    Bringing ideas to life through code is my forte, and i specialize in 
                     creating responsive and user-friendly websites.
             </motion.p>
             {/* btn */}

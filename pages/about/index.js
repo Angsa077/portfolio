@@ -7,6 +7,8 @@ import {
   FaLaravel,
   FaJs,
   FaReact,
+  FaVuejs,
+  FaBootstrap,
 } from 'react-icons/fa';
 
 import {
@@ -22,21 +24,18 @@ export const aboutData = [
     info: [
       {
         title: 'Web Development',
-        title: 'Web Development',
         icons: [
           <FaHtml5 key="html" />,
           <FaCss3 key="css" />,
           <SiTailwindcss key="tailwind" />,
+          <FaBootstrap key="bootstrap" />,
           <FaLaravel key="laravel" />,
           <FaJs key="javascript" />,
           <FaReact key="react" />,
           <SiNextdotjs key="nextjs" />,
+          <FaVuejs key="vue" />,
         ],
       },
-      // {
-      //   title: 'UI/UX Design',
-      //   icons: [<FaFigma />, <SiAdobexd />, <SiAdobephotoshop />],
-      // },
     ],
   },
   {
@@ -46,10 +45,6 @@ export const aboutData = [
         title: '-',
         stage: '-',
       },
-      // {
-      //   title: 'Adobe Design Achievement Awards - Finalist',
-      //   stage: '2009 - 2010',
-      // },
     ],
   },
   {
@@ -59,31 +54,59 @@ export const aboutData = [
         title: 'Customer Service at Bank Central Asia',
         stage: '2019 s/d 2022',
       },
-      // {
-      //   title: 'Web Developer - ABC Agency',
-      //   stage: '2010 - 2012',
-      // },
-      // {
-      //   title: 'Intern - DEF Corporation',
-      //   stage: '2008 - 2010',
-      // },
+      {
+        title: 'Web Developer Freelance',
+        stage: '2022 - NOW',
+      },
     ],
   },
   {
     title: 'credentials',
     info: [
       {
-        title: 'Web Developer Junior - BNSP',
+        title: 'BNSP - Web Developer Junior',
         stage: '2023',
       },
-      // {
-      //   title: 'Computer Science Diploma - AV Technical Institute',
-      //   stage: '2009',
-      // },
-      // {
-      //   title: 'Certified Graphic Designer - ABC Institute, Los Angeles, CA',
-      //   stage: '2006',
-      // },
+      {
+        title: 'Santri Koding - Certificate Smart Home System Laravel, React Native, dan Node MCU',
+        stage: '2023',
+      },
+      {
+        title: 'Alibaba Cloud - Certification Cloud Computing',
+        stage: '2023',
+      },
+      {
+        title: 'Santri Koding - Certificate Aplikasi Kasir POS Laravel, Inertia.js & Vue.js',
+        stage: '2023',
+      },
+      {
+        title: 'RevoU - Certificate Mini Course Intro to Data Analytics',
+        stage: '2023',
+      },
+      {
+        title: 'MySkill - Certificate SQL For Data Analyst',
+        stage: '2023',
+      },
+      {
+        title: 'Codepolitan - Certificate Cyber Security and Penetration Testing Fundamental',
+        stage: '2023',
+      },
+      {
+        title: 'Mindluster - Certificate Cyber Security Endpoint Defense',
+        stage: '2023',
+      },
+      {
+        title: 'Mindluster - Certificate Full Modern React',
+        stage: '2023',
+      },
+      {
+        title: 'Mindluster - Certificate Scrum Basics',
+        stage: '2023',
+      },
+      {
+        title: 'Mindluster - Certificate Web Analytics For Beginners',
+        stage: '2023',
+      },
     ],
   },
 ];
@@ -141,7 +164,7 @@ const About = () => {
                 initial='hidden'
                 animate='show'
                 exit='hidden'
-                className='flex flex-col w-full xl:max-w-[48%] h-[180px]'>
+                className='flex flex-col w-full xl:max-w-[48%] h-[180px] overflow-auto'>
               <div className='flex gap-x-4 xl:gap-x-8 mx-auto xl:mx-0 mb-4'>
                   {aboutData.map((item, itemIndex) =>{
                     return (
